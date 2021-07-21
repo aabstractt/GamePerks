@@ -1,0 +1,29 @@
+perks:
+  Fly:
+    action: toggleFly
+  Nick:
+    action: nick
+  ChatColour:
+    action: form
+    type: form
+    title: Change colour
+    content: "Current colour: $currentColour"
+    buttons:
+      - Red
+      - Blue
+  Kill Message:
+    action: form
+    type: form
+    title: Kill message
+    content: "Current kill message: $currentMessage"
+    buttons:
+      - Epic
+      - Hello
+  Particles:
+    action: form
+    type: form
+    title: Particles
+    content: "Current particle: $currentParticle"
+    buttons:
+      - Heart
+      - Emerald

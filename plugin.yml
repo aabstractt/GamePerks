@@ -1,0 +1,5 @@
+name: GamePerks
+main: gameperks\GamePerks
+version: 1.0
+author: wXav
+api: 3.0.0
