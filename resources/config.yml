@@ -3,16 +3,18 @@ perks:
     action: toggleFly
   Nick:
     action: nick
-  ChatColour:
-    action: form
+  Chat Colour:
+    action: chatColour
     type: form
     title: Change colour
     content: "Current colour: $currentColour"
     buttons:
       - Red
       - Blue
+      - Rainbow
+      - Remove
   Kill Message:
-    action: form
+    action: killMessage
     type: form
     title: Kill message
     content: "Current kill message: $currentMessage"
@@ -20,10 +22,19 @@ perks:
       - Epic
       - Hello
   Particles:
-    action: form
+    action: particles
     type: form
     title: Particles
     content: "Current particle: $currentParticle"
     buttons:
+      - Villager Angry
       - Heart
-      - Emerald
+
+randomNicks: []
+death-format:
+  Epic: "$deathPlayer was dead by $killerPlayer with $killerHealth"
+
+deathWorldsAllowed:
+  - world
+flyingWorldsAllowed:
+  - world
